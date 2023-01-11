@@ -1,0 +1,63 @@
+@import "variables";
+.contenedor{
+    background-image: $background-image;
+    .navbar{
+        height: 70px;
+        .icono{
+            width: 200px;
+            height: 100px; 
+        
+        }
+        .container-fluid{
+            .navbar-toggler {
+            border-color: $color-azul;
+            background-color: $color-blanco;
+            
+            .hamburguesa {
+                color: $color-azul;
+                
+            }
+            
+            }
+            .navegador{
+                grid-area: nav;
+                width:100%;
+                display: flex;
+                justify-content: flex-end;
+                font-size: 25px;
+                font-family: $fuente;
+                color: $color-azul;
+            
+                >li{
+                    color: $color-azul;  
+                    font-size: 25px;
+                    padding: 10px;
+                    z-index: 9999;
+    
+                    &:hover{
+                    color: white;
+                    flex-wrap: wrap;
+                    }
+                    
+                        
+                    a{
+                        color:$color-azul;
+                        font-size: 25px;
+            
+                        &:hover{
+                            transform: 0.5s;
+                            display: block;
+                        }
+        
+                        
+                    }
+                    
+                }
+                
+                
+            
+            }
+        }
+        
+    }
+}

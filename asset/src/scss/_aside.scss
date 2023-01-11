@@ -1,0 +1,10 @@
+.aside{
+    background-color:$color-azul;
+    color: $color-blanco;
+    text-align: center;
+    .btn-reg{
+        @extend %btn;
+    }
+
+
+}

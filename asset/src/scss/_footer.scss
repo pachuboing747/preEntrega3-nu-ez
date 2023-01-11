@@ -1,0 +1,12 @@
+@import "variables";
+.footer{
+    background-color:black;
+    .copyright{
+        color:$color-blanco;
+        text-align: center;
+        .copyright-leon{
+            color: $color-blanco;
+            text-align: center;
+        } 
+    } 
+}

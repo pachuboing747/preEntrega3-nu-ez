@@ -1,0 +1,22 @@
+@import "variables";
+
+.main-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    .texto-nosotros{
+        font-family: $fuente;
+        color: $color-azul;
+        font-size: 20px;
+        justify-items: center;
+        text-align: center;
+       
+    }
+  
+    .video{
+        display: flex;
+        margin: 0px 0px 0px 30px;
+
+    }
+
+}
+

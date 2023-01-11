@@ -1,0 +1,80 @@
+@import "variables";
+@import "mixin";
+.contenedor{
+    .formulario-contacto{
+        text-align: center;
+        margin: 50px;
+        
+        .formulario-uno{
+            @extend %formulario;
+            .form-label{
+                @include letra($color-azul,$fuente);
+                
+            }
+            .btn-send{
+               font-family: $fuente;
+               background-color:$color-azul ;
+               color:$color-blanco ;
+               margin: 10px;
+               padding: 10px;  
+            }
+            
+        }
+        .formulario-dos{
+            @extend %formulario;
+        } 
+        .formulario-tres{
+            @extend %formulario;
+            .list-unstyled{
+                color: $color-blanco;
+            }
+
+        } 
+    
+        
+    }
+
+    .lista-servicios{
+        @include letra(white ,'Franklin Gothic Medium');
+        justify-content: center;
+        margin: 20px;
+        .lista-asistencia{
+            li{
+                justify-content: center;
+                
+            }
+            h2{
+                text-decoration: underline;
+                font-family: $fuente;
+                justify-content: center;
+                .iconor{
+                    justify-content: center;
+                    display: flex;
+                }  
+            }
+        }
+
+
+        .lista-social{
+            @include letra(white ,'Franklin Gothic Medium');
+            justify-content:center;
+            ul{    
+                h2{
+                    justify-content:center; 
+                    @include letra(white ,'Franklin Gothic Medium'); 
+                    text-decoration: underline
+                }
+                li{
+                    a{
+                        @include letra(white ,'Franklin Gothic Medium');
+                        justify-content:center;
+                        align-items:center;
+                        text-decoration: none;
+                        
+                       
+                       
+                    }
+                    
+            }   }
+    }   }
+}

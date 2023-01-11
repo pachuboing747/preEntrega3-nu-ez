@@ -1,0 +1,16 @@
+.mainIndex {
+  grid-area: main;
+  gap: 20px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.slider {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  overflow: hidden;
+}

@@ -1,0 +1,16 @@
+@import "variables";
+
+.header{
+    grid-area: header;
+    padding: 20px;
+    background-color: transparent;
+
+    h1{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-family: $fuente;
+        color: $color-azul;  
+    }
+
+}

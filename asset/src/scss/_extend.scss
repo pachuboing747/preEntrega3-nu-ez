@@ -1,0 +1,21 @@
+
+%btn{
+    border-radius: 10%;
+    font-family: $fuente;
+    background-color: $color-blanco;
+    color: $color-azul;
+    animation: animacion 2s linear infinite;
+    margin: 8px;
+    padding: 8px;   
+}
+
+%formulario{
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items:center;
+    border-style: solid;
+    margin: 10px;
+}
+
+
+

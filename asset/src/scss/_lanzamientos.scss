@@ -1,0 +1,23 @@
+.main-lanzamiento{
+    justify-content: center;
+    grid-area: main;
+    display: flex;
+    object-fit: cover;
+    .btn-lanzamiento {
+        background-color: transparent;
+        border: transparent;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+    }
+
+     
+.carousel-control-prev spa{
+    margin-top: 30vh;
+   
+ }
+ .carousel-control-next spa{
+    margin-top: 30vh;
+ }
+}
