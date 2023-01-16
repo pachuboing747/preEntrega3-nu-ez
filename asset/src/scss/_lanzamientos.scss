@@ -1,23 +1,38 @@
+@import "variables";
 .main-lanzamiento{
     justify-content: center;
     grid-area: main;
     display: flex;
     object-fit: cover;
+   
+    
+    .img-fluid{
+        border-radius: 50px;  
+        border: 1px solid $color-azul;
+    }
+    .carousel-control-prev spa{
+        margin-top: 30vh;
+        
+    
+    }
+    .carousel-control-next spa{
+        margin-top: 30vh;
+    }
+    
     .btn-lanzamiento {
-        background-color: transparent;
-        border: transparent;
+        background-color: $color-azul;
         width: 100%;
-        margin: 0px;
-        padding: 0px;
+        margin: 10px;
         justify-content: center;
+        border: 1px solid $color-azul;
+        .categories{
+            color: $color-blanco;
+            text-decoration: none;
+        }
     }
 
+    
+
      
-.carousel-control-prev spa{
-    margin-top: 30vh;
-   
- }
- .carousel-control-next spa{
-    margin-top: 30vh;
- }
+    
 }

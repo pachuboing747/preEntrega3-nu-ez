@@ -8,8 +8,7 @@
         .formulario-uno{
             @extend %formulario;
             .form-label{
-                @include letra($color-azul,$fuente);
-                
+                @include letra($color-azul,$fuente); 
             }
             .btn-send{
                font-family: $fuente;
@@ -18,17 +17,29 @@
                margin: 10px;
                padding: 10px;  
             }
+            h3{
+                font-family: $fuente;
+                color:$color-azul ;
+            }
             
         }
         .formulario-dos{
             @extend %formulario;
+            
         } 
         .formulario-tres{
             @extend %formulario;
+            
             .list-unstyled{
                 color: $color-blanco;
+                margin: 10px;
+                i{
+                    color: $color-blanco;
+                    
+                }
+    
             }
-
+           
         } 
     
         
