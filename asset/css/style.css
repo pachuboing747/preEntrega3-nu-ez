@@ -190,8 +190,9 @@
   z-index: 9999;
 }
 .contenedor .navbar .container-fluid .navegador > li:hover {
-  color: white;
   flex-wrap: wrap;
+  background-color: rgb(102, 163, 243);
+  border-radius: 20px;
 }
 .contenedor .navbar .container-fluid .navegador > li a {
   color: rgb(3, 58, 131);
