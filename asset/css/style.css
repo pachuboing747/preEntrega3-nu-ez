@@ -191,7 +191,6 @@
 }
 .contenedor .navbar .container-fluid .navegador > li:hover {
   flex-wrap: wrap;
-  background-color: rgb(102, 163, 243);
   border-radius: 20px;
 }
 .contenedor .navbar .container-fluid .navegador > li a {
@@ -471,6 +470,10 @@
   .video {
     display: flex;
     justify-content: center;
+  }
+  .container-fluid .navegador > li {
+    background-color: white;
+    z-index: 9999;
   }
 }
 @media (max-width: 360px) {
