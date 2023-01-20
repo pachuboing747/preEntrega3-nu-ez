@@ -50,20 +50,20 @@
 
   .navbar{
     height: 70px;
+   
   }
-  .container-fluid{
-  display: flex;
- 
-  }
+  
 
   .icono {
     position:absolute;
     margin: 25px 0px 0px 70vw;
+   
   
   }
   
   .container-fluid{
   display: flex;
+  background-color: transparent;
   }
 
   .dropdown-menu{
@@ -113,6 +113,13 @@
     background-color:transparent;
     
   }
+  video{
+    margin-left: 10vw;
+  }
+  .texto-nosotros{
+    margin-left: 1vw;
+  }
+  
 
 }
 
@@ -126,6 +133,7 @@
   display: flex;
   justify-content: center;
   }
+
   .container-fluid{
     .navegador{
       >li{
