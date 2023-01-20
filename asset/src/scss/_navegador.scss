@@ -1,8 +1,11 @@
 @import "variables";
+
 .contenedor{
     background-image: $background-image;
+    
     .navbar{
-        height: 70px;
+        height: 100px;
+       
         .icono{
             width: 200px;
             height: 100px; 
@@ -27,6 +30,7 @@
                 font-size: 25px;
                 font-family: $fuente;
                 color: $color-azul;
+              
             
                 >li{
                     color: $color-azul;  
@@ -35,8 +39,9 @@
                     z-index: 9999;
     
                     &:hover{
-                    flex-wrap: wrap;
-                    border-radius: 20px;
+                        flex-wrap: wrap;
+                        background-color:rgb(102, 163, 243);
+                        border-radius: 20px;
                     
                     }
                     

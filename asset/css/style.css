@@ -161,7 +161,7 @@
   background-image: linear-gradient(white, rgb(3, 58, 131));
 }
 .contenedor .navbar {
-  height: 70px;
+  height: 100px;
 }
 .contenedor .navbar .icono {
   width: 200px;
@@ -191,6 +191,7 @@
 }
 .contenedor .navbar .container-fluid .navegador > li:hover {
   flex-wrap: wrap;
+  background-color: rgb(102, 163, 243);
   border-radius: 20px;
 }
 .contenedor .navbar .container-fluid .navegador > li a {
@@ -443,14 +444,30 @@
     position: absolute;
     margin: 25px 0px 0px 70vw;
   }
+  .container-fluid {
+    display: flex;
+  }
   .dropdown-menu {
     background-color: white;
     width: 30vw;
     display: inline;
   }
+  .slider {
+    margin-left: 10vw;
+  }
   .main-categoria .picture {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+  }
+  .main-nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-nosotros .texto-nosotros {
+    color: white;
+  }
+  .main-categoria .picture {
     display: flex;
     flex-direction: column;
   }
@@ -460,6 +477,15 @@
   }
   .main-nosotros .texto-nosotros {
     color: white;
+  }
+  .equipo {
+    margin-left: 10vw;
+  }
+  .aside {
+    background-color: transparent;
+  }
+  .footer {
+    background-color: transparent;
   }
 }
 @media (max-width: 768px) {

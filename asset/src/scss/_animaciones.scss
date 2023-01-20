@@ -53,6 +53,7 @@
   }
   .container-fluid{
   display: flex;
+ 
   }
 
   .icono {
@@ -61,14 +62,34 @@
   
   }
   
+  .container-fluid{
+  display: flex;
+  }
+
   .dropdown-menu{
   background-color:$color-blanco;
   width: 30vw;
   display: inline;
-  }  
+  } 
+  .slider{
+    margin-left: 10vw;
+  } 
   .main-categoria .picture{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+  }
+    
+  .main-nosotros{
+    display: flex;
+    flex-direction: column;
+    .texto-nosotros{ 
+      color: $color-blanco; 
+  
+    } 
+  }
+
+  .main-categoria .picture{
     display: flex;
     flex-direction: column; 
   
@@ -82,7 +103,16 @@
   
     } 
   }
-
+  .equipo{
+   margin-left: 10vw;
+  }
+  .aside{
+    background-color:transparent;
+  }
+  .footer{
+    background-color:transparent;
+    
+  }
 
 }
 
